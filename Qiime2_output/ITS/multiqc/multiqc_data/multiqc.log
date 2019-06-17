@@ -1,0 +1,574 @@
+[2019-04-17 19:58:30,511] multiqc                                            [DEBUG  ]  No MultiQC config found: /sandbox/users/delage-e-1/microSysMics/.snakemake/conda/a978791c/lib/python3.6/site-packages/multiqc_config.yaml
+[2019-04-17 19:58:30,512] multiqc                                            [DEBUG  ]  No MultiQC config found: /sandbox/users/delage-e-1/.multiqc_config.yaml
+[2019-04-17 19:58:30,512] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-04-17 19:58:30,512] multiqc                                            [DEBUG  ]  Command used: /sandbox/users/delage-e-1/microSysMics/.snakemake/conda/a978791c/bin/multiqc -f out_ITS/fastqc --outdir out_ITS/multiqc
+[2019-04-17 19:58:35,527] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check: timed out
+[2019-04-17 19:58:35,527] multiqc                                            [INFO   ]  This is MultiQC v1.7 (7e5d374)
+[2019-04-17 19:58:35,527] multiqc                                            [DEBUG  ]  Command     : /sandbox/users/delage-e-1/microSysMics/.snakemake/conda/a978791c/bin/multiqc -f out_ITS/fastqc --outdir out_ITS/multiqc
+[2019-04-17 19:58:35,527] multiqc                                            [DEBUG  ]  Working dir : /sandbox/users/delage-e-1/microSysMics
+[2019-04-17 19:58:35,528] multiqc                                            [INFO   ]  Template    : default
+[2019-04-17 19:58:35,528] multiqc                                            [INFO   ]  Searching 'out_ITS/fastqc'
+[2019-04-17 19:58:35,529] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2019-04-17 19:58:35,529] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/2199840.1.max-24h.q/tmp_zcbxjey
+[2019-04-17 19:58:36,664] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-a_S30.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-c_S65.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-a_S30.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-c_S65.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-c_S91.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-c_S68.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-c_S68.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-c_S91.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-b_S57.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-b_S57.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Control-a_S80.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Control-a_S80.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-a_S1.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,671] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-a_S1.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-b_S59.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-a_S4.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-c_S92.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-a_S74.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-b_S59.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-c_S92.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,675] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-c_S72.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-a_S74.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-a_S4.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-c_S70.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-c_S89.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-c_S89.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-c_S72.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-c_S70.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-b_S81.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-b_S81.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-c_S93.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-c_S66.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-c_S90.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-c_S90.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-c_S93.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-c_S17.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-c_S17.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-c_S66.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-a_S53.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-c_S67.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-c_S67.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-c_S160.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-a_S73.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-c_S160.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-a_S53.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-b_S82.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-a_S31.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-a_S78.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-a_S77.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-a_S73.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-a_S78.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-a_S77.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-a_S31.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-b_S58.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,695] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-b_S60.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S4-b_S82.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-c_S22.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-c_S22.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-b_S58.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,696] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-c_S88.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,697] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S4-c_S88.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-b_S138.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-c_S18.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-a_S135.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,701] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-a_S2.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-b_S60.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-Control-a_S154.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-c_S18.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-b_S34.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-a_S54.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-a_S54.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-c_S163.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-b_S138.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,703] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-b_S34.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-a_S26.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-a_S2.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-c_S147.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,705] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-b_S84.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-c_S147.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-a_S3.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-a_S135.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-a_S50.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-a_S52.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-c_S163.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-Control-a_S154.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-a_S26.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-b_S84.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-b_S83.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,710] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-c_S164.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S3-a_S50.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,713] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-c_S130.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-c_S162.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-b_S12.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-b_S83.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S2-a_S52.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-a_S3.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,714] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-c_S164.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,715] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-c_S162.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-c_S130.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-a_S51.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,719] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-a_S184.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-a_S56.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-b_S12.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-a_S55.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-a_S184.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S3-a_S51.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-a_S6.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,720] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-a_S56.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-a_S132.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-a_S6.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-a_S132.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-a_S49.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,722] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-c_S69.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-a_S55.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S3-a_S49.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-b_S85.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S1-b_S85.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-c_S69.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-c_S42.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-b_S36.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-b_S61.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-a_S25.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-b_S38.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-b_S38.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S2-c_S42.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-c_S161.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-c_S19.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-a_S76.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S3-a_S76.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-c_S161.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S2-b_S61.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-b_S155.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-a_S25.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,731] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-c_S45.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,732] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-c_S19.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,737] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-b_S86.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,737] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-b_S9.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,737] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S2-b_S86.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-a_S172.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-b_S33.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-c_S21.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-b_S62.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-a_S172.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,738] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-c_S204.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,739] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-b_S33.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,739] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-a_S149.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,739] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-b_S36.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,739] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-c_S23.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,740] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-c_S204.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,740] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-c_S45.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,740] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-c_S23.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,740] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-b_S155.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,741] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S1-b_S9.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,741] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-b_S101.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,741] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S1-b_S62.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,742] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-c_S43.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,742] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-c_S21.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,746] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-c_S41.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-a_S29.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-b_S124.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-c_S71.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-c_S71.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P1S2-c_S41.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S4-a_S149.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,747] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-b_S37.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-c_S43.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-b_S101.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-a_S29.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-c_S145.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-c_S20.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,748] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-b_S124.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,749] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-b_S182.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S5-c_S20.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-a_S201.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P5S1-b_S37.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-a_S98.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,752] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-b_S182.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,752] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-b_S139.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-b_S137.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-b_S39.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-a_S201.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-b_S137.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-c_S47.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-b_S15.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,758] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-c_S145.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-a_S131.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-a_S98.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-b_S157.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-c_S48.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-b_S139.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-b_S157.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-a_S131.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,760] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-b_S39.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,760] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-c_S48.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,760] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-b_S35.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,760] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-b_S141.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,760] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S4-c_S47.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,761] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-b_S15.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,761] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-a_S28.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,762] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-b_S64.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,764] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-c_S143.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,765] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-a_S32.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,765] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-b_S188.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-a_S28.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-c_S44.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-b_S103.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-c_S146.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-a_S32.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,768] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-a_S198.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,769] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-b_S104.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,769] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-b_S188.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,769] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S1-b_S141.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-c_S146.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S3-c_S143.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-b_S35.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-d-b_S64.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-b_S103.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-a_S198.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,771] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-b_S120.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,772] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-b_S104.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,772] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-c_S107.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,772] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-a_S134.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-b_S105.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-b_S185.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-b_S236.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-c_S108.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,778] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-b_S202.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-b_S199.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-b_S10.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-a_S5.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-c_S107.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-b_S199.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,779] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-b_S140.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-a_S134.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-b_S14.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-b_S236.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-b_S120.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S1-c_S44.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,780] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-c_S46.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,781] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-c_S108.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,784] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S2-b_S14.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,784] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-b_S202.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-a_S5.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-a_S133.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-c_S129.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-b_S185.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S2-b_S140.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,785] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P2S1-b_S10.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,786] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-c_S129.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,786] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P6S3-c_S46.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,786] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-b_S105.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-a_S75.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-a_S99.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-b_S16.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-b_S227.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-c_S228.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-c_S112.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S4-a_S75.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S2-a_S133.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-c_S228.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-b_S227.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-c_S112.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-a_S99.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,794] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-a_S7.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,794] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-b_S197.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,794] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-a_S113.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,795] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-c_S109.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,795] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-a_S151.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,795] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-b_S102.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,795] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-a_S95.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,795] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-b_S16.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-b_S102.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,802] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-c_S213.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,802] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-a_S118.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,802] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-a_S113.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,802] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-a_S150.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,802] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P7S3-a_S7.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-a_S165.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-b_S159.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-c_S216.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-b_S11.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-c_S109.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-a_S117.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,803] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-b_S197.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,804] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-c_S213.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,804] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-c_S216.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,804] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-a_S117.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,804] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-a_S150.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S1-a_S95.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-b_S159.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,805] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S3-a_S151.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-a_S165.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-b_S119.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-b_S40.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S4-a_S118.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-c_S196.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-b_S156.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,808] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S1-b_S11.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,809] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-b_S119.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,809] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-c_S167.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,813] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-c_S200.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,813] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-c_S203.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,813] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-c_S127.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,813] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-b_S13.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,813] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-c_S196.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S4-b_S156.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Pram-120-b_S40.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-a_S96.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-c_S24.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-c_S167.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,814] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P4S4-b_S13.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,815] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-c_S127.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,818] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-b_S121.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,818] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Mock-a_S171.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,818] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-b_S63.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-a_S116.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-a_S116.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S1-a_S96.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-c_S24.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-c_S200.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-b_S122.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,820] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Colza-myro-c_S203.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,820] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-c_S186.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,823] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-c_S110.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,824] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-c_S144.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,825] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-a_S115.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-a_S27.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-a_S114.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-b_S121.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,826] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-P3S2-a_S27.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-c_S126.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-c_S177.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Mock-a_S171.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-ACN-c_S186.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-c_S126.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-PBS-b_S63.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,827] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-b_S122.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,828] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S2-a_S114.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,828] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-c_S177.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,828] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-c_S174.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,829] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S4-c_S110.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,830] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-b_S158.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,831] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-b_S230.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,831] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P4S1-a_S115.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,831] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-b_S230.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,831] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S3-c_S144.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,832] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-b_S158.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,832] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-c_S174.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,832] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-c_S125.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-a_S190.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-c_S111.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S2-c_S111.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-a_S181.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-c_S225.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-c_S225.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-a_S226.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-Control-a_S190.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-a_S211.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P2S2-c_S125.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-a_S211.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-a_S152.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,839] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-a_S181.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,839] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S1-a_S152.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,839] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Tabac-a_S226.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,843] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-b_S123.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,843] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-c_S128.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,843] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P6S3-b_S123.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,843] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-Mock-a_S136.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,843] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-a_S194.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-a_S153.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-a_S214.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-Mock-a_S136.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-a_S217.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-a_S229.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,844] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P5S1-c_S128.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,845] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S2-a_S153.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-a_S232.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-a_S194.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-c_S231.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-c_S207.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-c_S231.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-a_S232.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-a_S217.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-b_S221.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Chanvre-a_S229.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-a_S8.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-b_S221.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-a_S178.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-a_S214.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-c_S207.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-b_S173.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-H2O-a_S8.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-b_S179.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-c_S183.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-a_S178.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-GR24-c_S183.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-a_S175.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-a_S175.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-b_S106.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-b_S106.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,861] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-c_S222.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,861] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-a_S235.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-c_S189.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-a_S223.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-c_S189.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-a_S223.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-b_S176.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,862] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-a_S100.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-GR24-b_S176.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P7S3-a_S100.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-b_S212.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-b_S206.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-a_S235.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-b_S179.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,863] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-b_S212.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,864] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-ACN-b_S173.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,864] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-b_S206.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,866] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-b_S224.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,866] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-b_S233.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,866] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P3S2-Chanvre-b_S224.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,866] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-c_S180.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-c_S222.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-b_S233.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-ACN-c_S180.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-c_S210.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,872] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-c_S170.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,872] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Mock-a_S79.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,873] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-c_S170.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,873] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-b_S195.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,873] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-c_S219.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,873] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-b_S215.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,873] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Seed-Mock-a_S79.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-c_S210.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-c_S234.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-a_S191.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-myro-b_S195.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,875] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Tabac-c_S234.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,875] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-b_S218.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,876] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Colza-myro-b_S215.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,876] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-a_S191.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,878] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-b_S169.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,878] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-b_S166.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-ACN-b_S166.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-b_S169.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-a_S220.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Tabac-a_S220.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-a_S238.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-b_S218.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-c_S240.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-c_S240.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-a_S238.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Chanvre-c_S219.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,884] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-a_S187.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-b_S192.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-b_S209.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-c_S237.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-a_S97.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Chanvre-c_S237.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Soil-P3S5-a_S97.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-a_S205.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-a_S205.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-b_S192.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-a_S168.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-GR24-a_S168.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-GR24-a_S187.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-b_S209.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-c_S193.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P2S2-Colza-c_S193.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-a_S208.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-b_S239.ITS1.R2_fastqc.html
+[2019-04-17 19:58:36,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P4S1-Colza-myro-a_S208.ITS1.R1_fastqc.html
+[2019-04-17 19:58:36,890] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Germ-P6S1-Tabac-b_S239.ITS1.R1_fastqc.html
+[2019-04-17 19:58:43,713] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2019-04-17 19:58:43,794] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2019-04-17 19:58:43,861] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2019-04-17 19:58:43,945] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2019-04-17 19:58:44,016] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2019-04-17 19:58:44,103] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2019-04-17 19:58:44,175] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2019-04-17 19:58:44,281] multiqc                                            [DEBUG  ]  No samples found: quast
+[2019-04-17 19:58:44,356] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2019-04-17 19:58:44,420] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2019-04-17 19:58:44,571] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2019-04-17 19:58:44,908] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2019-04-17 19:58:44,971] multiqc                                            [DEBUG  ]  No samples found: busco
+[2019-04-17 19:58:45,036] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2019-04-17 19:58:45,071] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2019-04-17 19:58:45,142] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2019-04-17 19:58:45,338] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2019-04-17 19:58:45,385] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2019-04-17 19:58:45,430] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2019-04-17 19:58:45,475] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2019-04-17 19:58:45,553] multiqc                                            [DEBUG  ]  No samples found: happy
+[2019-04-17 19:58:45,645] multiqc                                            [DEBUG  ]  No samples found: homer
+[2019-04-17 19:58:45,691] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2019-04-17 19:58:45,763] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2019-04-17 19:58:45,824] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2019-04-17 19:58:45,906] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2019-04-17 19:58:45,943] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2019-04-17 19:58:46,004] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2019-04-17 19:58:46,068] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2019-04-17 19:58:46,116] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2019-04-17 19:58:46,179] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2019-04-17 19:58:46,369] multiqc                                            [DEBUG  ]  No samples found: picard
+[2019-04-17 19:58:46,393] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2019-04-17 19:58:47,342] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2019-04-17 19:58:47,513] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2019-04-17 19:58:47,585] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2019-04-17 19:58:47,628] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2019-04-17 19:58:47,799] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2019-04-17 19:58:47,878] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2019-04-17 19:58:47,971] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2019-04-17 19:58:48,169] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2019-04-17 19:58:48,303] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2019-04-17 19:58:48,365] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2019-04-17 19:58:48,418] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2019-04-17 19:58:48,472] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2019-04-17 19:58:48,504] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2019-04-17 19:58:48,552] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2019-04-17 19:58:48,609] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2019-04-17 19:58:48,677] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2019-04-17 19:58:48,729] multiqc                                            [DEBUG  ]  No samples found: star
+[2019-04-17 19:58:48,792] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2019-04-17 19:58:48,846] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2019-04-17 19:58:48,880] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2019-04-17 19:58:48,901] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2019-04-17 19:58:48,966] multiqc                                            [DEBUG  ]  No samples found: kat
+[2019-04-17 19:58:49,035] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2019-04-17 19:58:49,091] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2019-04-17 19:58:49,149] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2019-04-17 19:58:49,223] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2019-04-17 19:58:49,331] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2019-04-17 19:58:49,371] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2019-04-17 19:58:49,397] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2019-04-17 19:58:49,504] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2019-04-17 19:58:49,550] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2019-04-17 19:58:49,593] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2019-04-17 19:58:49,752] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2019-04-17 19:58:49,833] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2019-04-17 19:59:05,517] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 472 reports
+[2019-04-17 19:59:57,098] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2019-04-17 19:59:57,154] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2019-04-17 19:59:57,192] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2019-04-17 19:59:57,253] multiqc                                            [DEBUG  ]  No samples found: interop
+[2019-04-17 19:59:57,318] multiqc                                            [DEBUG  ]  No samples found: flash
+[2019-04-17 19:59:58,032] multiqc                                            [INFO   ]  Compressing plot data
+[2019-04-17 19:59:58,171] multiqc                                            [INFO   ]  Report      : out_ITS/multiqc/multiqc_report.html
+[2019-04-17 19:59:58,172] multiqc                                            [INFO   ]  Data        : out_ITS/multiqc/multiqc_data
+[2019-04-17 19:59:58,179] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/multiqc_fastqc.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,183] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_sequence_counts_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,185] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,190] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,193] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,197] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,200] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,204] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,207] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,214] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/mqc_fastqc_overrepresented_sequencesi_plot_1.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,217] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/multiqc_general_stats.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,220] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/multiqc_sources.txt' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 19:59:58,223] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/2199840.1.max-24h.q/tmp_zcbxjey/multiqc_data/multiqc_data.json' to 'out_ITS/multiqc/multiqc_data'
+[2019-04-17 20:00:00,364] multiqc                                            [INFO   ]  MultiQC complete
