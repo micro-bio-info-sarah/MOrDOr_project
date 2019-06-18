@@ -1,5 +1,6 @@
 # Estimate beta-diversity
 
+#set the wanted phyloseq object: ps_16S/ITS_seed/soil/germ/elev
 ps=ps_16S_seed
 
 #first we'll normalize the abundance
