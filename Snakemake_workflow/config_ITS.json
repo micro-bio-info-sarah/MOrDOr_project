@@ -1,0 +1,17 @@
+{
+	"global" : {
+		"manifest" : "ITS/manifest.csv",
+		"outdir" : "out_ITS",
+		"context" : "ITS/context.tsv",
+		"parallel-samples" : "True",
+		"denoiser" : "dada2"
+	},
+	"import" : {
+		"type": "\"SampleData[PairedEndSequencesWithQuality]\"",
+                "input-format" : "PairedEndFastqManifestPhred33"
+	},"dada2" : {
+		"p-trunc-len-f" : 220,
+		"p-trunc-len-r" : 190
+	}
+
+}

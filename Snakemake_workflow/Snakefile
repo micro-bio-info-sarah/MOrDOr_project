@@ -1,0 +1,11 @@
+SAMPLES = list.txt
+
+rule all:
+	input:
+		"plate_{sample}.xls"
+	output:
+		"{sample}.txt"
+		"test.txt"
+	shell:
+		
+

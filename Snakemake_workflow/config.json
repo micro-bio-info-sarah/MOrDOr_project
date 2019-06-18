@@ -1,0 +1,20 @@
+{
+	"global" : {
+		"manifest" : "16S/manifest.csv",
+		"outdir" : "out_16S",
+		"context" : "16S/context.tsv",
+		"parallel-samples" : "True",
+		"denoiser" : "dada2"
+	},
+	"import" : {
+		"type": "\"SampleData[PairedEndSequencesWithQuality]\"",
+                "input-format" : "PairedEndFastqManifestPhred33"
+	},"dada2" : {
+		"p-trunc-len-f" : 231,
+		"p-trunc-len-r" : 227
+	},
+	"diversity" : {
+		"p-sampling-depth" : 3158
+	}
+
+}
