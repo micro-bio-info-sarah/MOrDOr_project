@@ -20,7 +20,7 @@ library(decontam)
 
 ### Import data ----
 abund_16S <- read.csv2("abundance_table_16S.csv", sep = ',',row.names = 1)
-taxo_16S <- read.csv2("taxo_16S_silva.csv", sep = ',',row.names = 1, colClasses = "character")
+taxo_16S <- read.csv2("taxo_16S.csv", sep = ',',row.names = 1, colClasses = "character")
 taxo_16S <- as.matrix(taxo_16S)
 design <- read_delim("design_16S.csv",",", escape_double = F, trim_ws = T)
 rownames(design) <- design$`#SampleID`
