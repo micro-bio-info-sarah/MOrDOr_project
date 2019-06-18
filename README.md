@@ -11,5 +11,5 @@ Folders:
 2. Estimate sequencing depth: Seq_depth.R
 3. Calculate prevalence and abundance of ASV: Prev_abund.R
 4. Estimate alpha-diversity: Alpha_div.R
-5. Estimate beta-diversity: Beta-div.R
+5. Estimate beta-diversity: Beta_div.R
 6. Taxonomic composition overview: Taxo_compo.R
