@@ -20,7 +20,7 @@ library(decontam)
 
 ### Import data ----
 abund_ITS <- read.csv2("abundance_table_ITS.csv", sep = ',',row.names = 1)
-taxo_ITS <- read.csv2("taxo_ITS_silva.csv", sep = ',',row.names = 1, colClasses = "character")
+taxo_ITS <- read.csv2("taxo_ITS.csv", sep = ',',row.names = 1, colClasses = "character")
 taxo_ITS <- as.matrix(taxo_ITS)
 design <- read_delim("design_ITS.csv",",", escape_double = F, trim_ws = T)
 rownames(design) <- design$`#SampleID`
@@ -51,9 +51,6 @@ ps_ITS <- prune_samples(!(sample_data(ps_ITS)$plot_sample %in% c("Mock",
                                                                  "Pram_120",
                                                                  "Pram_120_d")),
                         ps_ITS)
-#remove chloroplasts
-ps_ITS <- subset_taxa(ps_ITS,Order != "Chloroplast" )
-ps_ITS <- prune_taxa(taxa_sums(ps_ITS) > 0, ps_ITS)
 
 #remove contaminants
 #https://benjjneb.github.io/decontam/vignettes/decontam_intro.html#identifying-contaminants-in-marker-gene-and-metagenomics-data
