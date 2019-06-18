@@ -1,6 +1,7 @@
 # Represent prevalence and abundance of ASV
 
-ps = ps_16S_seed
+#set the wanted phyloseq object: ps_16S/ITS_seed/soil/germ/elev
+ps=ps_16S_seed
 
 # Create table, number of features for each phyla
 table(tax_table(ps)[, "Kingdom"], exclude = NULL)
