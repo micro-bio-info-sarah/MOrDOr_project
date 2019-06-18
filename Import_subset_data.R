@@ -1,4 +1,4 @@
-# Import and subset data for microbiata analysis
+# Import and subset data for microbiota analysis
 
 setwd("~/MOrDOr_project")
 
