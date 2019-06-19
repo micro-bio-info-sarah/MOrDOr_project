@@ -1,4 +1,8 @@
 # Estimate beta-diversity
+require(phyloseq)
+require(ggplot2)
+require(vegan)
+require(data.table)
 
 #set the wanted phyloseq object: ps_16S/ITS_seed/soil/germ/elev
 ps=ps_16S_seed
