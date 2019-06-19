@@ -1,4 +1,8 @@
 # Represent prevalence and abundance of ASV
+setwd("~/MOrDOr_project")
+require(phyloseq)
+require(plyr)
+require(ggplot2)
 
 #set the wanted phyloseq object: ps_16S/ITS_seed/soil/germ/elev
 ps=ps_16S_seed
