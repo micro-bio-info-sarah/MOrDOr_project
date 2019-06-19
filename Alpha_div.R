@@ -1,4 +1,5 @@
 # Estimate alpha-diversity
+setwd("~/MOrDOr_project")
 require(phyloseq)
 require(ggplot2)
 source("MOrDOr_functions.R")
