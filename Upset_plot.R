@@ -1,9 +1,13 @@
 # Create upset plot
 
-#https://cran.r-project.org/web/packages/UpSetR/vignettes/basic.usage.html
-#https://jokergoo.github.io/ComplexHeatmap-reference/book/upset-plot.html
+setwd("~/MOrDOr_project")
+require(phyloseq)
+require(ggplot2)
+require(UpSetR)
+require(data.table)
 
-ps = ps_16S_seed
+#set the wanted phyloseq object: ps_16S/ITS_seed/soil/germ/elev
+ps=ps_16S_seed
 
 ###  Upset dataframe ----
 
@@ -41,7 +45,7 @@ upsetplot <- upset(upsetdf,
                    nintersects =NA,
                    keep.order = T,
                    queries = list(list(query = intersects, 
-                                       params = colnames(upsetdf)[20:26], 
+                                       params = colnames(upsetdf)[1:(ncol(upsetdf)-3)], 
                                        color = "red", active = F)),
                    mainbar.y.label = "ASV count", 
                    boxplot.summary = "ASV total abundance (log10)",
