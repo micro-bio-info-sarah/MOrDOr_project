@@ -7,9 +7,11 @@ Folders:
 - Qiime2_output: output files obtained from Raw_data by Qiime2 workflow 
 - Krona: Krona charts created from seed data
 
+Scripts:
 1. Import and subset data: Import_subset_data.R
 2. Estimate sequencing depth: Seq_depth.R
 3. Calculate prevalence and abundance of ASV: Prev_abund.R
 4. Estimate alpha-diversity: Alpha_div.R
 5. Estimate beta-diversity: Beta_div.R
 6. Taxonomic composition overview: Taxo_compo.R
+7. Create upset plot: Upset_plot.R
