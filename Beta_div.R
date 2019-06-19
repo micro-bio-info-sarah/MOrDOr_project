@@ -1,4 +1,5 @@
 # Estimate beta-diversity
+setwd("~/MOrDOr_project")
 require(phyloseq)
 require(ggplot2)
 require(vegan)
