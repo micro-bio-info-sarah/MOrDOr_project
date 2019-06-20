@@ -32,11 +32,13 @@ abs_data$molecule <- abs_data$Group
 if (length(molecules) == 2) {
   abs_data$molecule[abs_data$Group == "A"] <- molecules[1]
   abs_data$molecule[abs_data$Group == "B"] <- molecules[2]
-} else {
+} else if (length(molecules) == 4){
   abs_data$molecule[abs_data$Group == "A"] <- molecules[1]
   abs_data$molecule[abs_data$Group == "B"] <- molecules[2]
   abs_data$molecule[abs_data$Group == "C"] <- molecules[3]
   abs_data$molecule[abs_data$Group == "D"] <- molecules[4]
+} else {
+  print("Add a statement in that loop or ask Sarah ;)")
 }
 
 #choose one molecule to  modelize /!\ /!\ /!\
