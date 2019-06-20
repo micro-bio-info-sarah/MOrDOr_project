@@ -1,6 +1,0 @@
-Five plate design were used in this study:
-- 1 for ITC test
-- 1 for GR24 test in 2018
-- 1 for GR24 test in 2019
-- 1 for ELEV
-- 1 for C+myr
