@@ -26,6 +26,7 @@ abs_data <- abs_data[select,] #remove empty well
 
 # set all tested moelcules in that plate /!\ /!\ /!\
 molecules=c("2PEITC","racGR24")
+#molecules=c("+GR24","-GR24","+eGR24","-eGR24")
 
 abs_data$molecule <- abs_data$Group
 if (length(molecules) == 2) {
