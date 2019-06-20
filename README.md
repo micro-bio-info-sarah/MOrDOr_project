@@ -2,9 +2,11 @@
 Seed­‐carried Microbiota from Orobanche during the early parasitic (Orobanche) cycle
 
 Folders:
+- Genotype: SSR data and analysis
+- Phenotype: data and analysis of RUC files
 - Raw_fastq: sequencing output as raw fastq files
 - Snakemake_workflow: fastq files assigned to 16S/ITS with jason files needed for Snakemake workflow (https://gitlab.univ-nantes.fr/bird_pipeline_registry/microSysMics)
-- Qiime2_output: output files obtained from Raw_data by Qiime2 workflow 
+- Qiime2_output: output files obtained from Snakemake_workflow fastq by Qiime2 workflow 
 - Krona: Krona charts created from seed data
 
 Scripts:
