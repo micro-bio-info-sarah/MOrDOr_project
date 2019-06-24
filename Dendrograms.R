@@ -4,6 +4,7 @@ setwd("~/MOrDOr_project")
 require(readr)
 require(data.table)
 require(pvclust)
+require(phyloseq)
 source("MOrDOr_functions.R")
 
 ### Genotype ----
@@ -30,7 +31,7 @@ write.tree(phy=my_tree, file="tree_genotyping_bt.newick",tree.names=TRUE,digits=
 plot(my_tree,show.node.label=TRUE)
 
 ### Phenotype ----
-ed_all <- read_csv("EC50.csv")
+ed_all <- read_csv("Phenotype/EC50.csv")
 
 ed_matrix <- as.data.frame(levels(as.factor(ed_all$sample)))
 colnames(ed_matrix) <- "sample"
